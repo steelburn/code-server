@@ -196,7 +196,7 @@ jobs:
           path: tmp-npm-package-dir
 
       - name: Display structure of downloaded files
-        working-directory: tmp-npm-package-dir
+        working-directory: release-npm-package
         run: ls -R
 
       - name:
