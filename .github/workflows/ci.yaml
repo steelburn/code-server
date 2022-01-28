@@ -195,10 +195,6 @@ jobs:
           name: "npm-package"
           path: tmp-npm-package-dir
 
-      - name: Display structure of downloaded files
-        working-directory: release-npm-package
-        run: ls -R
-
       - name:
           Set NPM_ENVIRONMENT
           # The way this logic works is it checks if the GitHub event is a push to the `main` branch
