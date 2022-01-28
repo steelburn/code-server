@@ -193,7 +193,7 @@ jobs:
         id: download
         with:
           name: "npm-package"
-          path: tmp-npm-package-dir
+          path: release-npm-package
 
       - name:
           Set NPM_ENVIRONMENT
